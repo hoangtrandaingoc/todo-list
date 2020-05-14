@@ -1,0 +1,21 @@
+.TodoItem-Complete > p{
+    text-decoration: line-through #91e1ff;
+    color: #e6e2d8;
+}
+
+.TodoItem{
+    font-weight: 300;
+    font-size: 24px;
+    color: #4d4d4d;
+    border-bottom: 1px solid #EEE;
+    padding: 10px 5px;
+    display: flex;  
+}
+
+.TodoItem > p{
+    margin: 0 0 0 20px;
+}
+
+.TodoItem:last-child{
+    border-bottom: none;
+}
